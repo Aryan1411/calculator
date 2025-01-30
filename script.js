@@ -17,3 +17,11 @@ function calculate(){
         }
     }
 }
+
+document.getElementById('value').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        calculate();
+    }
+});
+
+let clear=
