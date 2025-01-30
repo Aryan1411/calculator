@@ -64,3 +64,5 @@ body{
 
     cursor: pointer;
 }
+li{
+    list-style: numeric;}
