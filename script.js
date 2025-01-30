@@ -24,4 +24,3 @@ document.getElementById('value').addEventListener('keydown', function(event) {
     }
 });
 
-let clear=
