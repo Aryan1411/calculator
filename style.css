@@ -5,6 +5,12 @@ body{
     padding: 0;
     background-color: rgb(121, 120, 120);
 }
+h1{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 10px;
+}
 #main{
     width: 80vw;
     height:85vh;
