@@ -24,3 +24,11 @@ document.getElementById('value').addEventListener('keydown', function(event) {
     }
 });
 
+function buttonClick(v){
+    let value=document.getElementById('value');
+    value.value+=v;
+    document.getElementById('value').value=value.value;
+}
+function clearall(){
+    document.getElementById('value').value='';
+}
